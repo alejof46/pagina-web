@@ -1,0 +1,44 @@
+
+div{
+	font-family: "arial";
+	background-color: #a8cf45;
+	margin: 10px 10px;
+	text-align: center;
+	font-weight: bolder;
+	width: 120px;
+	padding: 15px 30px;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+
+	
+
+
+
+}
+.esquina_pagina{
+	-moz-transform:translatex(0);
+	-webkit-transform:translatex(0);
+}
+
+
+
+.esquina_pagina:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	
+	background: -webkit-linear-gradient(45deg, 
+		                      white 45%, #aaa 50%,
+		                      #ccc 60%, white);
+	-webkit-transition-duration: 0.6s;
+	-moz-transition-duration: 0.3s;
+}
+
+.esquina_pagina:hover:before{
+	width: 35px;
+	height: 35px;
+}
