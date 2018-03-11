@@ -18,7 +18,7 @@ div{
 }
 
 .triangulo_lateral{
-	-webkit-transfor: translateX(0);
+	-webkit-transform: translateX(0);
 	-moz-transfor: translateX(0);
 	-ms-transfor: translateX(0);
 	-o-transfor: translateX(0);
